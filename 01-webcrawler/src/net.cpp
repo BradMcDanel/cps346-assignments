@@ -18,9 +18,10 @@
 #define BUFFER_SIZE 1024
 
 int socket_connect() {
-  // These can stay hardcoded
-  std::string host = "139.162.185.240";
-  int port = 80;
+  // These can stay hardcoded. They point at the server.py running on your own
+  // machine. If you start the server on a different port, change it here too.
+  std::string host = "127.0.0.1";
+  int port = 8080;
 
   struct sockaddr_in addr;
   int on = 1;
