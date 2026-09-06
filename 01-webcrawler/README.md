@@ -58,7 +58,9 @@ http://127.0.0.1:8080/articles/c/h/i/Chicago.html
 http://127.0.0.1:8080/articles/f/r/a/Franklin___Marshall_College.html
 ```
 
-The pages are real Wikipedia articles with their markup intact, so the links are buried in the text the way they are on any web page. Links that leave the snapshot will 404, which is the same thing your crawler will see.
+Only these links are fully crawled to depth 2.
+
+The pages are real Wikipedia articles with their markup intact, so the links are buried in the text the way they are on any web page.
 
 ### Next Steps
 * Click around the site to get a sense of what the content you will be crawling looks like
