@@ -1,0 +1,2 @@
+name,x,y,kind,amplitude,frequency,start,duration,radius
+S0,160,696,pulse,1000000,120,0,0.06,3
